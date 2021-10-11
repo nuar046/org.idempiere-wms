@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WarehouseManagementSystem
+Bundle-SymbolicName: org.idempiere.WMS;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.adempiere.base.process;bundle-version="1.0.0",
+ org.adempiere.plugin.utils;bundle-version="0.0.0",
+ org.apache.ecs;bundle-version="1.0.0",
+ org.adempiere.ui;bundle-version="1.0.0",
+ org.adempiere.base,
+ org.idempiere.LiberoMfg;bundle-version="1.0.0"
+Service-Component: OSGI-INF/WMSModelFactory.xml, OSGI-INF/WMS_Validator.xml
+Import-Package: org.osgi.service.event
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Bundle-ActivationPolicy: lazy

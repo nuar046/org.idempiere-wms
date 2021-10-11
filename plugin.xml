@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.eevolution.process.GenerateInOutBound"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.eevolution.process.GenerateInOutBound">
+      </process>
+   </extension>
+   <extension
+         id="org.eevolution.process.GenerateShipmentOutBound"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.eevolution.process.GenerateShipmentOutBound">
+      </process>
+   </extension>
+   <extension
+         id="org.eevolution.process.ReleaseInOutBound"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.eevolution.process.ReleaseInOutBound">
+      </process>
+   </extension>
+
+</plugin>
